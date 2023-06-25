@@ -6,15 +6,13 @@ export default function(){
         <>
         <div id="project">
             <Title title={'Recent'} subtile={'projects'} />
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 lgl:gap-10">
+            <div className="w-full flex items-center gap-2">
                 <div className="px-6">
-                    <ProjectCard  image={spacee} title={'apartment booking'} category={'personal project'}/>
-                    <ProjectCard  image={spacee} title={'apartment booking'} category={'personal project'}/>
+                    <ProjectCard  image={spacee} title={'apartment booking'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet nemo harum expedita odio accusamus, autem necessitatibus repudiandae q'} livelink={''} githublink={''}/>
+                    <ProjectCard  image={spacee} title={'apartment booking'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet nemo harum expedita odio repudiandae quod doloremque!'} livelink={''} githublink={''}/> 
+                    <ProjectCard  image={spacee} title={'apartment booking'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet nemo harum expedita odio accusamus, a'} livelink={''} githublink={''}/>
                 </div>
-                <div className="px-6 lgl:mt-20">
-                    <ProjectCard  image={spacee} title={'apartment booking'} category={'personal project'}/>
-                    <ProjectCard  image={spacee} title={'apartment booking'} category={'personal project'}/>
-                </div>
+                
             </div>
         </div>
         </>

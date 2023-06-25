@@ -112,7 +112,7 @@ export default function () {
                         </div>
                     </div>
                     <ResumeTitle title={'extras'} icon={< FaFileExport />} />
-                    <div className="py-6">
+                    <div className="py-6 w-5/6 ">
                         <div className="py-3 border-b-[2px] border-zinc-800">
                             <p className="text-base text-textColor -mb-1.5 capitalize flex gap-2"><span className="text-designColor">< GiCheckMark /></span> team collaboration</p>
 

@@ -23,8 +23,8 @@ export default function () {
                     <div className="absolute w-3/12 h-5/6 bg-white/50 top-[43%] left-[80%] rotate-[-135deg]"></div>
             </div>
             <div className="w-full h-2/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl ">
-                <div className="flex flex-col items-center gap-2 py-[3.4rem] ">
-                    <h1 className="text-textColor text-3xl font-semibold capitalize ">Nkwuda theophilus</h1>
+                <div className="flex flex-col items-center gap-2 py-[2.7rem] ">
+                    <h1 className="  text-3xl font-semibold capitalize ">Nkwuda theophilus</h1>
                     <p className=" text-designColor tracking-wide font-medium capitalize text-2xl">{text}< Cursor cursorBlinking= "true" cursorStyle="|"/></p>
                     <div className="flex justify-center gap-3 mt-2">
                         <a href="https://www.github.com/ONtio-js" target="_blank" className="hover:text-designColor duration-300 cursor-pointer text-2xl"> < FaGithub/></a>

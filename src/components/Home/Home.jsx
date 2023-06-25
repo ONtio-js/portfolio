@@ -36,55 +36,55 @@ export default function () {
 
                         <span onClick={() => {
                             setAbout(true) & setContact(false) & setProjects(false) & setBlog(false) & setResume(false);
-                        }} className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
+                        }} className="w-full h-6 text-xl flex  items-center justify-center   cursor-pointer relative group">
                             < FaUser /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">about</span>
                         </span>
                         <span onClick={() => {
                             setAbout(false) & setContact(false) & setProjects(false) & setBlog(false) & setResume(true);
-                        }} className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
+                        }} className="w-full h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
                             < FaFile /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">resume</span>
                         </span>
                         <span onClick={() => {
                             setAbout(false) & setContact(false) & setProjects(true) & setBlog(false) & setResume(false);
-                        }} className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
+                        }} className="w-full h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
                             < FaArchive /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">Project</span>
                         </span>
                         <span onClick={() => {
                             setAbout(false) & setContact(false) & setProjects(false) & setBlog(true) & setResume(false);
-                        }} className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
+                        }} className="w-full h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
                             < FaPen /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">blog</span>
                         </span>
 
                         <span onClick={() => {
                             setAbout(false) & setContact(true) & setProjects(false) & setBlog(false) & setResume(false);
-                        }} className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
+                        }} className="w-full h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
                             < FaEnvelope /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">contact</span>
                         </span>
-                        <a href="tel:+2348118637072" className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
+                        <a href="tel:+2348118637072" className="w-full h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
                             < BsTelephoneFill /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">call</span>
                         </a>
                     </div>
                 </div>
                 <div className="w-full lgl:w-[94%] h-full bg-transparent flex flex-col items-center gap-4 lgl:flex-row justify-center ">
-                    <div className="w-full  md:hidden  bg-bodyColor rounded-3xl  flex py-3 items-center justify-between ">
-                        <a  href ="#about" className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
-                            < FaUser /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">about</span>
+                    <div className="w-full  md:hidden  bg-bodyColor rounded-2xl  flex py-3 items-center gap-2 justify-between ">
+                        <a  href ="#about" className="w-5/6 mx-2 h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
+                            < FaUser /><span className="absolute -left-2 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-2 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">about</span>
                         </a>
-                        <a  href = "#resume" className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
-                            < FaFile /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">resume</span>
+                        <a  href = "#resume" className="w-5/6 h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
+                            < FaFile /><span className="absolute -left-2 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-2 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">resume</span>
                         </a>
-                        <a href="#project" className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
-                            < FaArchive /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">Project</span>
+                        <a href="#project" className="w-5/6 h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
+                            < FaArchive /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-2 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">Project</span>
                         </a>
-                        <a href="#blog" className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
-                            < FaPen /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">blog</span>
+                        <a href="#blog" className="w-5/6 h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
+                            < FaPen /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-2 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">blog</span>
                         </a>
 
-                        <a href="#contact" className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
-                            < FaEnvelope /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">contact</span>
+                        <a href="#contact" className="w-5/6 h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
+                            < FaEnvelope /><span className="absolute -left-2 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-2 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">contact</span>
                         </a>
-                        <a href="tel:+2348118637072" className="w-full h-6 text-xl flex  items-center justify-center  text-textColor cursor-pointer relative group">
-                            < BsTelephoneFill /><span className="absolute left-0 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-8 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">call</span>
+                        <a href="tel:+2348118637072" className="w-5/6 h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
+                            < BsTelephoneFill /><span className="absolute -left-2 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-2 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">call</span>
                         </a>
                     </div>
                     {/* introduction */}
@@ -126,6 +126,14 @@ export default function () {
                                     < Project />
                                 </motion.div>
                             }
+                               {contact &&
+                                < motion.div
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    transition={{ duration: 1 }}>
+                                    < Contact />
+                                </motion.div>
+                            }
                             {blog &&
                                 < motion.div
                                     initial={{ opacity: 0 }}
@@ -134,14 +142,7 @@ export default function () {
                                     < Blog />
                                 </motion.div>
                             }
-                            {contact &&
-                                < motion.div
-                                    initial={{ opacity: 0 }}
-                                    animate={{ opacity: 1 }}
-                                    transition={{ duration: 1 }}>
-                                    < Contact />
-                                </motion.div>
-                            }
+                         
                         </div>
                     </div>
                 </div>
