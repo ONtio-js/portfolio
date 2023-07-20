@@ -66,7 +66,7 @@ export default function () {
                     </div>
                 </div>
                 <div className=" w-full lgl:w-[94%] h-full bg-transparent flex flex-col items-center gap-4 lgl:flex-row justify-center ">
-                    <div className="fixed bottom-[2vh] w-full mt-2 md:hidden  bg-bodyColor rounded-2xl  flex py-4 items-center gap-2 justify-between ">
+                    <div className="fixed bottom-[2vh] w-full mt-2 md:hidden  bg-bodyColor rounded-2xl z-50 flex py-4 items-center gap-2 justify-between ">
                         <a href="#about" className="w-5/6 mx-2 h-6 text-xl flex  items-center justify-center    cursor-pointer relative group">
                             < FaUser /><span className="absolute -left-2 capitalize font-semibold text-sm px-3 py-[2px] bg-designColor rounded-xl translate-x-2 transition-all group-hover:translate-x-11 opacity-0 group-hover:opacity-100 duration-300 z-20">about</span>
                         </a>

@@ -1,0 +1,6 @@
+.box{
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    display: -webkit-box;
+}

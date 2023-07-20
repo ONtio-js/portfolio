@@ -9,7 +9,7 @@ export default function({image,title,category,date,link}){
             </div>
             <div className=" w-3/5 flex flex-col items-center gap-1.5">
                 
-                <p className=" text-xs  md:text-base -mt-1">{category}</p>
+                <p className=" text-xs  md:text-base -mt-1 box">{category}</p>
                 <div className="flex justify-between items-center w-full ">
                     
                 <h2 className="text-xs capitalize md:text-base text-center  font-titleFont  ">{date}</h2>

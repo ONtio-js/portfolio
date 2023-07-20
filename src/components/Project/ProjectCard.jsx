@@ -1,5 +1,5 @@
 import { FaCloud, FaGithub } from "react-icons/fa";
-
+import '../../App.css'
 export default function({image,description,title, githublink,livelink}){
     return(
         <>
@@ -12,10 +12,10 @@ export default function({image,description,title, githublink,livelink}){
             </div>
             <div className=" w-3/5 flex flex-col items-center gap-1.5">
             <h3 className="text-base py-2 capitalize text-center font-titleFont md:text-[25px] font-semibold  text-designColor">{title}</h3>
-                <p className=" text-xs  md:text-base -mt-1">{description}</p>
+                <p className=" text-xs  md:text-base -mt-1 box">{description}</p>
                 <div className="flex justify-between items-center w-full px-4 mt-4 ">
                     
-                <a  href = {githublink}className="text-xs capitalize md:text-base text-center font-semibold  font-titleFont inline-flex gap-2 items-center  "> source < FaGithub /></a>
+                <a  href = {githublink}className="text-[10px] capitalize md:text-base text-center font-semibold  font-titleFont inline-flex gap-2 items-center  "> documentation < FaGithub /></a>
                 <a className=" text-xs font-semibold md:text-lg group-hover:text-designColor duration-300 inline-flex gap-2 items-center" href={livelink}> <FaCloud /> Live</a>
                 </div>
                
