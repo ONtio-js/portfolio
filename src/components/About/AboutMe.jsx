@@ -5,7 +5,7 @@ export default function AboutMe() {
                 <div className="  w-full md:w-1/2  border-r-[2px]  border-zinc-800 p-6">
                     <div className="py-6">
                         <h2 className="font-semibold text-lg py-2"> Hello! I am Nkwuda Theophilus</h2>
-                        <p className="text-base leading-6">I'm a seasoned full-stack developer, specializing in React, Express, mongoDB and Node.js. My passion lies in building extraordinary web applications through seamless collaboration. Let's team up to create something exceptional!</p>
+                        <p className="text-[16px] leading-6">A web developer with more than 2 years of experience building user-friendly, responsive websites. JavaScript development is my area of expertise, along with HTML, CSS, and php. I'm passionate about building websites that support online company growth and prosperity. Together, let's design a website that will boost the success of your company.</p>
                     </div>
                 </div>
                 <div className="w-full md:w-1/2 p-6">
